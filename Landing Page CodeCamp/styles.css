@@ -1,0 +1,120 @@
+*{font-family: sans-serif;
+    color: black;
+background-color: rgb(225, 225, 225);}
+
+h1,h2,h3{
+    font-size: 2em;
+    text-align: center;
+}
+
+
+@media(min-width: 470px){
+    header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 75px; /* Usar una altura fija */
+        display: flex;
+        align-items: center;
+        background-color: #453645;
+        z-index: 1000; /* Asegura que el encabezado esté sobre otros elementos */
+    }
+    .logo{
+        max-width: 30%;
+        position: fixed;
+        top: 0px;
+        padding: 0;
+        margin-top: 10px;
+        margin-left: 10px;
+        left: 5px;
+        display: flex;
+        align-items: center;
+        background-color: #453645;
+        height: 30px;
+    }
+    .logo > img{
+        max-height: 50px;
+        margin: auto;
+        padding: 0;
+        background-color: #453645;
+    }
+    nav{
+        max-width: 70%;
+        position: fixed;
+        top: 0; /* Ajuste para asegurar que esté alineado con el top */
+        right: 0; /* Ajuste para asegurar que esté alineado con el right */
+        height: 75px;
+        max-height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        background-color: #453645;
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        list-style-type: none; /* Eliminar disc */
+        margin: 0;
+        padding: 0;
+        background-color: #453645;
+        width: 100%; /* Asegura que los elementos ocupen todo el espacio disponible */
+    }
+    li {
+        margin: 0 10px;
+        display: flex;
+        align-items: center; /* Asegura que los items estén centrados verticalmente */
+        unicode-bidi: isolate;
+        background-color: #453645;
+    }
+    a{
+        color: white;
+        text-decoration: none; /* Eliminar subrayado */
+        font-size: 1em;
+        padding: 10px 15px;
+        background-color: #453645;
+    }
+    a:hover{
+        color: rgb(48, 191, 248);
+    }
+}
+a:hover{
+    color:rgb(48, 191, 248);
+}
+div{
+    padding: 40px;
+}
+form{
+    max-width: 330px;
+    min-width: 150px;
+    margin: auto;
+    padding: 0;
+    display: block;
+    text-align: center;
+
+}
+input[type="email"]{
+    min-width: 150px;
+    width: 260px;
+
+}
+input{
+    margin: auto;
+
+}
+
+input[type="submit"]
+{margin-top: 10px;
+    max-width: 170;
+    width: 170px;
+    height: 30px;
+    background-color: rgb(109, 95, 120);
+    color:white;
+    font-family: sans-serif;
+    font-size: 1.25em;
+}
+h1{
+    margin-top: 50px;
+}
+
